@@ -1,0 +1,84 @@
+{
+  "_meta": {
+    "description": "Monthly climate normals for 5 cities. Sourced from NOAA/WMO 1991-2020 climate normals and national meteorological agencies.",
+    "units": {
+      "temp_high_f": "°F (average daily high)",
+      "temp_low_f": "°F (average daily low)",
+      "temp_mean_f": "°F (average daily mean)",
+      "temp_stddev_f": "°F (standard deviation of daily max temps)",
+      "precip_days": "average number of days with ≥ 0.01 in precipitation",
+      "precip_total_mm": "total monthly precipitation in mm",
+      "humidity_pct": "average relative humidity %"
+    }
+  },
+  "new_york": {
+    "1":  {"temp_high_f": 39, "temp_low_f": 26, "temp_mean_f": 33, "temp_stddev_f": 8.5, "precip_days": 10, "precip_total_mm": 92, "humidity_pct": 62},
+    "2":  {"temp_high_f": 42, "temp_low_f": 28, "temp_mean_f": 35, "temp_stddev_f": 8.8, "precip_days": 9, "precip_total_mm": 79, "humidity_pct": 60},
+    "3":  {"temp_high_f": 50, "temp_low_f": 35, "temp_mean_f": 43, "temp_stddev_f": 8.2, "precip_days": 11, "precip_total_mm": 111, "humidity_pct": 58},
+    "4":  {"temp_high_f": 62, "temp_low_f": 44, "temp_mean_f": 53, "temp_stddev_f": 7.5, "precip_days": 11, "precip_total_mm": 114, "humidity_pct": 56},
+    "5":  {"temp_high_f": 72, "temp_low_f": 54, "temp_mean_f": 63, "temp_stddev_f": 6.8, "precip_days": 11, "precip_total_mm": 106, "humidity_pct": 60},
+    "6":  {"temp_high_f": 81, "temp_low_f": 63, "temp_mean_f": 72, "temp_stddev_f": 5.9, "precip_days": 11, "precip_total_mm": 117, "humidity_pct": 64},
+    "7":  {"temp_high_f": 86, "temp_low_f": 69, "temp_mean_f": 77, "temp_stddev_f": 5.2, "precip_days": 10, "precip_total_mm": 118, "humidity_pct": 65},
+    "8":  {"temp_high_f": 84, "temp_low_f": 67, "temp_mean_f": 76, "temp_stddev_f": 5.0, "precip_days": 9, "precip_total_mm": 112, "humidity_pct": 66},
+    "9":  {"temp_high_f": 77, "temp_low_f": 60, "temp_mean_f": 68, "temp_stddev_f": 5.8, "precip_days": 8, "precip_total_mm": 109, "humidity_pct": 65},
+    "10": {"temp_high_f": 65, "temp_low_f": 49, "temp_mean_f": 57, "temp_stddev_f": 6.5, "precip_days": 9, "precip_total_mm": 112, "humidity_pct": 63},
+    "11": {"temp_high_f": 54, "temp_low_f": 40, "temp_mean_f": 47, "temp_stddev_f": 7.2, "precip_days": 9, "precip_total_mm": 102, "humidity_pct": 63},
+    "12": {"temp_high_f": 44, "temp_low_f": 31, "temp_mean_f": 37, "temp_stddev_f": 8.0, "precip_days": 10, "precip_total_mm": 102, "humidity_pct": 63}
+  },
+  "london": {
+    "1":  {"temp_high_f": 46, "temp_low_f": 36, "temp_mean_f": 41, "temp_stddev_f": 5.5, "precip_days": 15, "precip_total_mm": 55, "humidity_pct": 81},
+    "2":  {"temp_high_f": 47, "temp_low_f": 36, "temp_mean_f": 42, "temp_stddev_f": 5.6, "precip_days": 12, "precip_total_mm": 41, "humidity_pct": 77},
+    "3":  {"temp_high_f": 52, "temp_low_f": 38, "temp_mean_f": 45, "temp_stddev_f": 5.8, "precip_days": 11, "precip_total_mm": 42, "humidity_pct": 72},
+    "4":  {"temp_high_f": 58, "temp_low_f": 42, "temp_mean_f": 50, "temp_stddev_f": 5.4, "precip_days": 10, "precip_total_mm": 44, "humidity_pct": 67},
+    "5":  {"temp_high_f": 64, "temp_low_f": 48, "temp_mean_f": 56, "temp_stddev_f": 5.2, "precip_days": 9, "precip_total_mm": 49, "humidity_pct": 67},
+    "6":  {"temp_high_f": 70, "temp_low_f": 54, "temp_mean_f": 62, "temp_stddev_f": 5.0, "precip_days": 9, "precip_total_mm": 45, "humidity_pct": 67},
+    "7":  {"temp_high_f": 74, "temp_low_f": 58, "temp_mean_f": 66, "temp_stddev_f": 5.3, "precip_days": 8, "precip_total_mm": 45, "humidity_pct": 67},
+    "8":  {"temp_high_f": 74, "temp_low_f": 57, "temp_mean_f": 66, "temp_stddev_f": 5.2, "precip_days": 8, "precip_total_mm": 50, "humidity_pct": 70},
+    "9":  {"temp_high_f": 68, "temp_low_f": 53, "temp_mean_f": 61, "temp_stddev_f": 5.0, "precip_days": 9, "precip_total_mm": 49, "humidity_pct": 73},
+    "10": {"temp_high_f": 59, "temp_low_f": 47, "temp_mean_f": 53, "temp_stddev_f": 4.8, "precip_days": 12, "precip_total_mm": 69, "humidity_pct": 77},
+    "11": {"temp_high_f": 51, "temp_low_f": 41, "temp_mean_f": 46, "temp_stddev_f": 5.0, "precip_days": 13, "precip_total_mm": 59, "humidity_pct": 81},
+    "12": {"temp_high_f": 46, "temp_low_f": 37, "temp_mean_f": 42, "temp_stddev_f": 5.3, "precip_days": 14, "precip_total_mm": 55, "humidity_pct": 82}
+  },
+  "tokyo": {
+    "1":  {"temp_high_f": 51, "temp_low_f": 35, "temp_mean_f": 43, "temp_stddev_f": 5.0, "precip_days": 5, "precip_total_mm": 60, "humidity_pct": 52},
+    "2":  {"temp_high_f": 52, "temp_low_f": 36, "temp_mean_f": 44, "temp_stddev_f": 5.5, "precip_days": 6, "precip_total_mm": 56, "humidity_pct": 53},
+    "3":  {"temp_high_f": 57, "temp_low_f": 41, "temp_mean_f": 49, "temp_stddev_f": 5.8, "precip_days": 10, "precip_total_mm": 116, "humidity_pct": 58},
+    "4":  {"temp_high_f": 65, "temp_low_f": 49, "temp_mean_f": 57, "temp_stddev_f": 5.5, "precip_days": 10, "precip_total_mm": 134, "humidity_pct": 63},
+    "5":  {"temp_high_f": 73, "temp_low_f": 58, "temp_mean_f": 65, "temp_stddev_f": 5.0, "precip_days": 11, "precip_total_mm": 139, "humidity_pct": 66},
+    "6":  {"temp_high_f": 78, "temp_low_f": 66, "temp_mean_f": 72, "temp_stddev_f": 4.5, "precip_days": 12, "precip_total_mm": 168, "humidity_pct": 75},
+    "7":  {"temp_high_f": 84, "temp_low_f": 73, "temp_mean_f": 79, "temp_stddev_f": 4.2, "precip_days": 10, "precip_total_mm": 154, "humidity_pct": 77},
+    "8":  {"temp_high_f": 87, "temp_low_f": 74, "temp_mean_f": 80, "temp_stddev_f": 4.5, "precip_days": 8, "precip_total_mm": 168, "humidity_pct": 74},
+    "9":  {"temp_high_f": 80, "temp_low_f": 68, "temp_mean_f": 74, "temp_stddev_f": 4.8, "precip_days": 11, "precip_total_mm": 210, "humidity_pct": 73},
+    "10": {"temp_high_f": 71, "temp_low_f": 58, "temp_mean_f": 64, "temp_stddev_f": 5.0, "precip_days": 10, "precip_total_mm": 198, "humidity_pct": 68},
+    "11": {"temp_high_f": 63, "temp_low_f": 48, "temp_mean_f": 55, "temp_stddev_f": 5.2, "precip_days": 7, "precip_total_mm": 93, "humidity_pct": 63},
+    "12": {"temp_high_f": 55, "temp_low_f": 39, "temp_mean_f": 47, "temp_stddev_f": 5.0, "precip_days": 4, "precip_total_mm": 51, "humidity_pct": 56}
+  },
+  "mumbai": {
+    "1":  {"temp_high_f": 89, "temp_low_f": 67, "temp_mean_f": 78, "temp_stddev_f": 3.5, "precip_days": 0, "precip_total_mm": 1, "humidity_pct": 61},
+    "2":  {"temp_high_f": 90, "temp_low_f": 68, "temp_mean_f": 79, "temp_stddev_f": 3.3, "precip_days": 0, "precip_total_mm": 1, "humidity_pct": 60},
+    "3":  {"temp_high_f": 92, "temp_low_f": 72, "temp_mean_f": 82, "temp_stddev_f": 3.0, "precip_days": 0, "precip_total_mm": 1, "humidity_pct": 63},
+    "4":  {"temp_high_f": 93, "temp_low_f": 77, "temp_mean_f": 85, "temp_stddev_f": 2.8, "precip_days": 0, "precip_total_mm": 2, "humidity_pct": 67},
+    "5":  {"temp_high_f": 93, "temp_low_f": 80, "temp_mean_f": 87, "temp_stddev_f": 2.5, "precip_days": 2, "precip_total_mm": 18, "humidity_pct": 70},
+    "6":  {"temp_high_f": 90, "temp_low_f": 79, "temp_mean_f": 84, "temp_stddev_f": 2.2, "precip_days": 17, "precip_total_mm": 530, "humidity_pct": 82},
+    "7":  {"temp_high_f": 87, "temp_low_f": 78, "temp_mean_f": 82, "temp_stddev_f": 2.0, "precip_days": 24, "precip_total_mm": 840, "humidity_pct": 86},
+    "8":  {"temp_high_f": 86, "temp_low_f": 77, "temp_mean_f": 82, "temp_stddev_f": 2.0, "precip_days": 22, "precip_total_mm": 585, "humidity_pct": 85},
+    "9":  {"temp_high_f": 88, "temp_low_f": 77, "temp_mean_f": 82, "temp_stddev_f": 2.2, "precip_days": 14, "precip_total_mm": 340, "humidity_pct": 82},
+    "10": {"temp_high_f": 93, "temp_low_f": 77, "temp_mean_f": 85, "temp_stddev_f": 2.5, "precip_days": 4, "precip_total_mm": 64, "humidity_pct": 72},
+    "11": {"temp_high_f": 93, "temp_low_f": 73, "temp_mean_f": 83, "temp_stddev_f": 3.0, "precip_days": 1, "precip_total_mm": 14, "humidity_pct": 64},
+    "12": {"temp_high_f": 91, "temp_low_f": 69, "temp_mean_f": 80, "temp_stddev_f": 3.2, "precip_days": 0, "precip_total_mm": 3, "humidity_pct": 62}
+  },
+  "sydney": {
+    "1":  {"temp_high_f": 79, "temp_low_f": 66, "temp_mean_f": 73, "temp_stddev_f": 4.5, "precip_days": 8, "precip_total_mm": 100, "humidity_pct": 65},
+    "2":  {"temp_high_f": 79, "temp_low_f": 66, "temp_mean_f": 73, "temp_stddev_f": 4.2, "precip_days": 9, "precip_total_mm": 118, "humidity_pct": 68},
+    "3":  {"temp_high_f": 77, "temp_low_f": 63, "temp_mean_f": 70, "temp_stddev_f": 4.5, "precip_days": 10, "precip_total_mm": 131, "humidity_pct": 67},
+    "4":  {"temp_high_f": 72, "temp_low_f": 57, "temp_mean_f": 64, "temp_stddev_f": 4.8, "precip_days": 8, "precip_total_mm": 127, "humidity_pct": 68},
+    "5":  {"temp_high_f": 66, "temp_low_f": 51, "temp_mean_f": 58, "temp_stddev_f": 5.0, "precip_days": 8, "precip_total_mm": 120, "humidity_pct": 68},
+    "6":  {"temp_high_f": 61, "temp_low_f": 47, "temp_mean_f": 54, "temp_stddev_f": 4.8, "precip_days": 8, "precip_total_mm": 132, "humidity_pct": 69},
+    "7":  {"temp_high_f": 60, "temp_low_f": 46, "temp_mean_f": 53, "temp_stddev_f": 5.0, "precip_days": 7, "precip_total_mm": 98, "humidity_pct": 65},
+    "8":  {"temp_high_f": 63, "temp_low_f": 47, "temp_mean_f": 55, "temp_stddev_f": 5.2, "precip_days": 7, "precip_total_mm": 81, "humidity_pct": 62},
+    "9":  {"temp_high_f": 67, "temp_low_f": 51, "temp_mean_f": 59, "temp_stddev_f": 5.0, "precip_days": 7, "precip_total_mm": 69, "humidity_pct": 61},
+    "10": {"temp_high_f": 72, "temp_low_f": 56, "temp_mean_f": 64, "temp_stddev_f": 4.8, "precip_days": 8, "precip_total_mm": 77, "humidity_pct": 63},
+    "11": {"temp_high_f": 75, "temp_low_f": 60, "temp_mean_f": 67, "temp_stddev_f": 4.5, "precip_days": 8, "precip_total_mm": 84, "humidity_pct": 64},
+    "12": {"temp_high_f": 78, "temp_low_f": 64, "temp_mean_f": 71, "temp_stddev_f": 4.5, "precip_days": 7, "precip_total_mm": 78, "humidity_pct": 64}
+  }
+}

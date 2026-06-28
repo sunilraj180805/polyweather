@@ -1,0 +1,25 @@
+# PolyWeather - Autonomous Weather Prediction Market Trading System
+# Install: pip install -r requirements.txt
+
+# === Core APIs ===
+apify-client>=1.8.0            # Apify weather data scraping
+openai>=1.40.0                 # OpenRouter API client (OpenAI-compatible)
+requests>=2.32.0               # HTTP client for REST APIs
+aiohttp>=3.10.0                # Async HTTP for concurrent data fetching
+
+# === Data & Computation ===
+pandas>=2.2.0                  # Data manipulation and analysis
+numpy>=1.26.0                  # Numerical computation (z-scores, stats)
+
+# === Dashboard ===
+streamlit>=1.38.0              # Web dashboard UI
+plotly>=5.24.0                 # Interactive charts
+
+# === Notifications ===
+python-telegram-bot>=21.0      # Telegram bot integration
+
+# === Configuration ===
+python-dotenv>=1.0.0           # Environment variable management
+
+# === Scheduling ===
+schedule>=1.2.0                # Periodic task scheduling
